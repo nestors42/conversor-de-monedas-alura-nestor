@@ -10,9 +10,10 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/challenge-conversor-de-monedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nestorproyecto/menuConversor/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nestorproyecto/consumoDeApi/ApiRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nestorproyecto/menuConversor/MenuDeConversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nestorproyecto/menuConversor/MenuDeConversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nestorproyecto/menuConversor/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nestorproyecto/menuConversor/Moneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApiRequest.executor": "Run",
     "Application.MenuDeConversor.executor": "Run",
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,6 +58,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.MenuDeConversor">
+    <configuration name="ApiRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nestorproyecto.consumoDeApi.ApiRequest" />
+      <module name="challenge-conversor-de-monedas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nestorproyecto.consumoDeApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuDeConversor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nestorproyecto.menuConversor.MenuDeConversor" />
       <module name="challenge-conversor-de-monedas" />
@@ -73,6 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MenuDeConversor" />
+        <item itemvalue="Application.ApiRequest" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>

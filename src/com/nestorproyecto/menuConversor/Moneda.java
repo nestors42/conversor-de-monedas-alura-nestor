@@ -1,34 +1,35 @@
 package com.nestorproyecto.menuConversor;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Moneda {
 //  creo las propiedades que tiene una moneda
-    public String nombre;
-    public int valor;
+    @SerializedName("base_code")
+    private String baseCode;
+    @SerializedName("target_code")
+    private String targetCode;
+    @SerializedName("conversion_rate")
+    private double convertionRate;
+
+
 // creo el constructor
-    public Moneda(String nombre, int valor) {
-        this.nombre = nombre;
-        this.valor = valor;
+
+
+    public Moneda(String baseCode, String targetCode, double convertionRate) {
+        this.baseCode = baseCode;
+        this.targetCode = targetCode;
+        this.convertionRate = convertionRate;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getBaseCode() {
+        return baseCode;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getTargetCode() {
+        return targetCode;
     }
 
-    public int getValor() {
-        return valor;
-    }
-
-    public void setValor(int valor) {
-        this.valor = valor;
-    }
-
-
-    @Override
-    public String toString() {
-        return "el nombre de la moneda: "+ this.getNombre()+ " el valor es: "+ this.getValor();
+    public double getConvertionRate() {
+        return convertionRate;
     }
 }
