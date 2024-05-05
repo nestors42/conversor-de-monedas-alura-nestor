@@ -44,10 +44,6 @@ public class MenuDeConversor {
                     System.out.println(moneda.getConvertionRate() * cantidad);
 
             }
-
-
-
-
             }
 
 
